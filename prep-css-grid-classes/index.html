@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      display: flex;
+      width: 100%;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<div class = "container" >
+  <div class="row">
+    <div class="column"> <img src="images/crusade.png">
+      <h3> Indiana Jones and the Last Crusade </h3>
+      <h4>Indiana Jones and the Last Crusade
+        is a 1989 American action-adventure film directed by Steven Spielberg</h4>
+    </div>
+    <div class="column"> <img src="images/raiders.jpg" >
+      <h3> Raiders of the Lost Ark </h3>
+      <h4>Raiders of the Lost Ark is a 1981 American action-adventure
+        film directed by Steven Spielberg and written by Lawrence
+      Kasdan</h4>
+    </div>
+    <div class="column"> <img src="images/temple.jpg" >
+      <h3> Indiana Jones and the Temple of Doom </h3>
+      <h4>Indiana Jones and the Temple of Doom is a 1984 American action-adventure
+        film directed by Steven Spielberg.</h4>
+    </div>
+  </div>
+</div>
+</body>
+</html>
